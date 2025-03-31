@@ -6,7 +6,8 @@
 	* [Exercises_1-2-1 計算量がnの階乗に比例する方法でn=5で1秒かかった場合n=10では何秒か](Text/C.01/Exercises_1-2-1.py)
 	* [Exercises_1-2-2 計算量がnの階乗に比例する方法でn=5で1秒かかった場合n=15では何秒か](Text/C.01/Exercises_1-2-2.py)
 	* [Exercises_1-2-3 計算量がnの3乗に比例する場合](Text/C.01/Exercises_1-2-3.py)
-
+	<br>
+	
 ### [２．計算アルゴリズムの表現](Text/C.02)
 * <font color="maroon">Algorithm</font>
 	* [Algorithm_2-2 ユークリッドの互除法](Text/C.02/Algorithm_2-2.py)
@@ -16,11 +17,13 @@
 * <font color="olive">演習問題</font>
 	* [Exercises_2-2 昇順ソーティング](Text/C.02/Exercises_2-2.py)
 	* [Exercises_2-3 昇順ソーティング（位置指定）](Text/C.02/Exercises_2-3.py)
-	
+	<br>	
+
 ### [３．コンピュータにおける数値の表現と処理](Text/C.03)
 * <font color="maroon">Algorithm</font>
 	* [Algorithm_3-1 10進数から2進数への変換](Text/C.03/Algorithm_3-1.py)
  	* [Algorithm_3-2 10進数小数aの2進n桁展開](Text/C.03/Algorithm_3-2.py)
+	<br>
 
 ### [４．行列とベクトルの計算](Text/C.04)
 * <font color="green">練習問題</font>
@@ -32,6 +35,7 @@
 * <font color="olive">演習問題</font>
 	* [Exercises_4-1 行列累乗とベクトル積の計算](Text/C.04/Exercises_4-1.py)
 	* [Exercises_4-6 グラム・シュミットの直交化法を用いて正規直交ベクトルを求める](Text/C.04/Exercises_4-6.py)
+	<br>
 	
 ### [５．連立一次方程式の解法](Text/C.05)
 * <font color="green">練習問題</font>
@@ -52,7 +56,14 @@
 	* [Exercises_5-3 LU分解による連立方程式の解法](Text/C.05/Exercises_5-3.py)
 	* [Exercises_5-4 LU分解による連立方程式解法をデコレータで一般化（逆行列計算）](Text/C.05/Exercises_5-4.py)
 	* [Exercises_5-5 選択軸付きLU分解による連立方程式の解法](Text/C.05/Exercises_5-5.py)
+	<br>
 
+### [６．多項式と有理式](Text/C.06)
+
+### [７．関数の近似](Text/C.07)
+
+### [８．非線形方程式の解法](Text/C.08)
+	
 ### [９．行列の固有値問題](Text/C.09)
 * <font color="navy">文中の式</font>
 	* [Equation-9-18 固有ベクトル行列と固有値行列](Text/C.09/Equation_9-18.py)
@@ -72,4 +83,16 @@
 * <font color="maroon">Algorithm</font>
 	<br>
 * <font color="olive">演習問題</font>
+	<br>
 
+### [１０．最小二乗法と特異値分解](Text/C.10)
+
+### [１１．数値積分法](Text/C.11)
+
+### [１２．常微分方程式の解法](Text/C.12)
+
+### [１３．偏微分方程式と差分法](Text/C.13)
+
+### [１４．疎行列の計算法](Text/C.14)
+
+### [１５．スーパーコンピュータによる数値計算](Text/C.15)
