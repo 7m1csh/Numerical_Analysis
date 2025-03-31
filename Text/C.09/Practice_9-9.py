@@ -1,42 +1,42 @@
+# ゲルシュゴリン円盤を可視化
+
 import numpy as np
+import matplotlib.pyplot as plt
 
-# 対称行列 A
-A = np.array([
-    [4, 1, 2, 3],
-    [1, 4, 3, 2],
-    [2, 3, 4, 1],
-    [3, 2, 1, 4]
-], dtype=float)
+# 行列 A の定義
+A = np.array([[4, -1, 2],
+              [1, 3, -2],
+              [0, -1, 5]])
 
-# 1列目の2行目以降を対象に Householder 変換を作成
-x = A[1:, 0]  # [1, 2, 3]
-e1 = np.zeros_like(x)
-e1[0] = np.linalg.norm(x) * (1 if x[0] >= 0 else -1)  # 符号を考慮
-v = x - e1
-v = v / np.linalg.norm(v)  # 正規化
+n = A.shape[0]
 
-# Householder 行列 H1 の構成（4x4サイズに拡張）
-I = np.eye(4)
-H1 = I.copy()
-H1[1:, 1:] -= 2.0 * np.outer(v, v)
+# ゲルシュゴリン円盤の計算
+centers = np.diag(A)  # 対角成分（円の中心）
+radii = np.sum(np.abs(A), axis=1) - np.abs(centers)  # 半径
 
-# A を変換
-A1 = H1 @ A @ H1.T
+# プロットの設定
+fig, ax = plt.subplots(figsize=(6, 6))
+ax.set_xlim(min(centers) - max(radii) - 1, max(centers) + max(radii) + 1)
+ax.set_ylim(-max(radii) - 1, max(radii) + 1)
 
-print("Householder 変換行列 H1:\n", H1)
-print("変換後の行列 A1:\n", A1)
+# x, y 軸の描画
+ax.axhline(0, color='black', linewidth=0.5)
+ax.axvline(0, color='black', linewidth=0.5)
 
-print("Householder ベクトル v:", v)
-print("Householder 変換行列 H1:", H1)
+# 各ゲルシュゴリン円盤を描画
+for i in range(n):
+    circle = plt.Circle((centers[i], 0), radii[i], color='b', alpha=0.3, edgecolor='black')
+    ax.add_patch(circle)
+    ax.plot(centers[i], 0, 'ro')  # 円の中心を赤い点で表示
 
+# ラベルとタイトル
+ax.set_title("Gershgorin Circles")
+ax.set_xlabel("Real Part")
+ax.set_ylabel("Imaginary Part")
+ax.grid(True, linestyle="--", alpha=0.5)
 
-# A1 の 1列目（2行目以降）の要素を出力
-print("A1 の 1列目（2行目以降）の要素:", A1[1:, 0])
-
-# ゼロと見なせるか？（許容誤差を考慮してチェック）
-print("ゼロと見なせるか？", np.allclose(A1[1:, 0], 0, atol=1e-10))
-
-print("Householder ベクトル v:", v)
-print("H1 @ H1.T (単位行列になれば正しい):", np.allclose(H1 @ H1.T, np.eye(H1.shape[0])))
-print("A1の1列目:", A1[:, 0])
+# 表示
+print(f"ゲルシュゴリン円盤を可視化する行列：\n{A}\n")
+print(f"行列 A の固有値：{np.linalg.eigvals(A)}")
+plt.show()
 
