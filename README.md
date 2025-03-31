@@ -78,7 +78,9 @@
 	* [Practice_9-6 三重対角行列の連立一次方程式をTDMA法で解く](Text/C.09/Practice_9-6.py)
 	* [Practice_9-7 三重対角行列を使って固有値分解](Text/C.09/Practice_9-7.py)
 	* [Practice_9-8 ハウスホルダー変換による三重対角化](Text/C.09/Practice_9-8.py)
-	* [Practice_9-9 スペクトラム分解](Text/C.09/Practice_9-9.py)
+	* [Practice_9-9 ゲルシュゴリン円盤を可視化](Text/C.09/Practice_9-9.py)
+	* [Practice_9-10 固有値の条件数](Text/C.09/Practice_9-10.py)
+	* [Practice_9-11 行列の相似変換](Text/C.09/Practice_9-11.py)
 	<br>
 * <font color="maroon">Algorithm</font>
 	<br>
