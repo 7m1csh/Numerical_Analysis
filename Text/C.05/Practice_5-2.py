@@ -20,14 +20,14 @@ def cholesky_decomposition(A):
 A = np.array([[4, 2], [2, 3]], dtype=float)
 L = cholesky_decomposition(A)
 
-print("A:")
+print("A: コレスキー分解する対称行列")
 print(A)
 print("")
 
-print("L:")
+print("L: コレスキー分解された下三角行列")
 print(L)
 print("")
 
-print("L @ L.T:")
+print("L @ L.T: A に戻るか検証")
 print(L @ L.T)  # A に戻るか確認
 

@@ -22,7 +22,6 @@ def gram_schmidt(A):
         # Step 1: 直交化 (Orthogonalization)
         u_i = A[i].copy()
         for j in range(i):
-            
             u_i -= np.dot(Q[j], A[i]) * Q[j]
 
         U[i] = u_i  # 直交化されたベクトルを保存
@@ -36,7 +35,7 @@ def gram_schmidt(A):
 
     return Q
 
-# 🎯 動作テスト（4次元ベクトル）
+# 動作テスト
 A = np.array([
     [1, 0, 0],
     [1, 1, 1],
