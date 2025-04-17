@@ -1,4 +1,4 @@
-# Practice 10.7 Givens回転を用いたQR分解のアニメーション表示
+# Practice 10.7 ギブンス回転を用いたQR分解のアニメーション表示
 
 import numpy as np
 import matplotlib.pyplot as plt

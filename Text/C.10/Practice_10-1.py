@@ -1,3 +1,6 @@
+# Practice 10.1 最小二乗法による回帰直線の求め方
+# 最小二乗法を用いて与えられたデータ点に最も近い直線を求める
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import rcParams

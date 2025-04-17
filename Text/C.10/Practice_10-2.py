@@ -1,3 +1,6 @@
+# Practice 10.2 疑似逆行列を用いた最小二乗法
+# 与えられた方程式の係数行列と定数ベクトルを用いて、擬似逆行列を用いた最小二乗法を実装し、回帰直線を描画する。
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import rcParams
