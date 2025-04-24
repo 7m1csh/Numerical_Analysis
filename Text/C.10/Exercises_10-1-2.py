@@ -25,11 +25,23 @@ b  = np.array([-1, 11/10, 3])
 
 # 行列 A を列ベクトルとして構成（3×2 行列）
 A = np.column_stack((a1, a2))
+print("行列 A:")
+print(A)
+
+# 行列 A の転置
+A_T = A.T
+print("\n行列 A の転置 A^T:")
+print(A_T)
 
 # 正規方程式 (A^T A)x = A^T b の構築と解法
 AtA = A.T @ A
 Atb = A.T @ b
 x = np.linalg.solve(AtA, Atb)
+print("\n連立方程式の係数行列:")
+print(AtA)
+print("\n連立方程式の右辺:")
+print(Atb)
+print()
 
 # 結果表示
 print("最小二乗解 x:")
