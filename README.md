@@ -83,13 +83,16 @@
 	* [Practice_9-11 行列の相似変換](Text/C.09/Practice_9-11.py)
 	<br>
 * <font color="maroon">Algorithm</font>
+	* [Algorithm_9-1 べき乗法](Text/C.09/Algorithm_9-1.py)
+	* [Algorithm_9-2 レイリー・リッツ手法](Text/C.09/Algorithm_9-2.py)
 	<br>
 * <font color="olive">演習問題</font>
+	* [Exercises_9-1 行列の固有値と固有ベクトルを求める](Text/C.09/Exercises_9-1.py)
+	* [Exercises_9-2 固有ベクトルの1次結合](Text/C.09/Exercises_9-2.py)
+	* [Exercises_9-5 べき乗法(Algorithm_9-1)](Text/C.09/Exercises_9-5.py)
 	<br>
 
 ### [１０．最小二乗法と特異値分解](Text/C.10)
-<<<<<<< Updated upstream
-=======
 * <font color="green">練習問題</font>
 	* [Practice_10-1 最小二乗法による回帰直線の求め方](Text/C.10/Practice_10-1.py)
 	* [Practice_10-2 疑似逆行列を用いた最小二乗法](Text/C.10/Practice_10-2.py)
@@ -120,7 +123,6 @@
 	* [Exercises_10-3-1 演習問題10.3のの論理で特異値分解を求め単位円を変換する様子をプロット](Text/C.10/Exercises_10-3-1.py)
 	* [Exercises_10-4 ベクトルを2次元座標に図示角ベクトルの角θ1,2,3とcosθ1,cosθ2,cosθ3を図示](Text/C.10/Exercises_10-4.py)
 	<br>	
->>>>>>> Stashed changes
 
 ### [１１．数値積分法](Text/C.11)
 
