@@ -88,6 +88,39 @@
 	<br>
 
 ### [１０．最小二乗法と特異値分解](Text/C.10)
+<<<<<<< Updated upstream
+=======
+* <font color="green">練習問題</font>
+	* [Practice_10-1 最小二乗法による回帰直線の求め方](Text/C.10/Practice_10-1.py)
+	* [Practice_10-2 疑似逆行列を用いた最小二乗法](Text/C.10/Practice_10-2.py)
+	* [Practice_10-3 グラムシュミッドの直交化法による QR 分解](Text/C.10/Practice_10-3.py)
+	* [Practice_10-4 ハウスホルダー変換による QR 分解](Text/C.10/Practice_10-4.py)
+	* [Practice_10-5 ギブンス回転を用いたQR分解](Text/C.10/Practice_10-5.py)
+	* [Practice_10-6 ギブンス回転によるQR分解](Text/C.10/Practice_10-6.py)
+	* [Practice_10-7 ギブンス回転を用いたQR分解のアニメーション表示](Text/C.10/Practice_10-7.py)
+	* [Practice_10-8 特異値分解とアニメーション](Text/C.10/Practice_10-8.py)
+	* [Practice_10-9 特異値の一つが 0 に近い場合の特異値分解の視覚化アニメーション](Text/C.10/Practice_10-9.py)
+	* [Practice_10-10 ラグランジュの未定乗数法の視覚化](Text/C.10/Practice_10-10.py)
+	* [Practice_10-11 主成分分析](Text/C.10/Practice_10-11.py)
+	* [Practice_10-12 回帰分析](Text/C.10/Practice_10-12.py)
+	* [Practice_10-13 主成分分析と回帰分析の比較](Text/C.10/Practice_10-13.py)
+	* [Practice_10-14 リッジ回帰とラッソ回帰の図式化](Text/C.10/Practice_10-14.py)
+	* [Practice_10-15 ラッソ回帰の係数変化](Text/C.10/Practice_10-15.py)
+	* [Practice_10-16 リッジ回帰とラッソ回帰の係数変化](Text/C.10/Practice_10-16.py)
+	* [Practice_10-17 正則化において、寄与の小さい重みの値を抑えている様子をグラフに可視化](Text/C.10/Practice_10-17.py)
+	* [Practice_10-18 L2正則化 ラムダの値の変化による最小解の変化](Text/C.10/Practice_10-18.py)
+	* [Practice_10-19 正則化の実装で表示した図をマウスで動かして様々な方向から見る](Text/C.10/Practice_10-19.py)
+	<br>
+* <font color="olive">演習問題</font>
+	* [Exercises_10-1-1 ベクトルの図示](Text/C.10/Exercises_10-1-1.py)
+	* [Exercises_10-1-2 A^t@A を係数行列とする連立1次方程式 A^t@A@x=b を解いて1次式による最小2乗近似を求める](Text/C.10/Exercises_10-1-2.py)
+	* [Exercises_10-1-3 演習問題10.1.2を３Ｄ図示化する](Text/C.10/Exercises_10-1-3.py)
+	* [Exercises_10-2 演習問題10.1の行列をハウスホルダー変換](Text/C.10/Exercises_10-2.py)
+	* [Exercises_10-3 演習問題10.1の行列を固有値分解し特異値分解](Text/C.10/Exercises_10-3.py)
+	* [Exercises_10-3-1 演習問題10.3のの論理で特異値分解を求め単位円を変換する様子をプロット](Text/C.10/Exercises_10-3-1.py)
+	* [Exercises_10-4 ベクトルを2次元座標に図示角ベクトルの角θ1,2,3とcosθ1,cosθ2,cosθ3を図示](Text/C.10/Exercises_10-4.py)
+	<br>	
+>>>>>>> Stashed changes
 
 ### [１１．数値積分法](Text/C.11)
 
