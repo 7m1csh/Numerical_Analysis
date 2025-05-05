@@ -131,5 +131,12 @@
 ### [１３．偏微分方程式と差分法](Text/C.13)
 
 ### [１４．疎行列の計算法](Text/C.14)
+* <font color="green">練習問題</font>
+	* [Practice_14-1 疎行列への変換 - CSR形式](Text/C.14/Practice_14-1.py)
+	<br>
+* <font color="maroon">Algorithm</font>
+	* [Algorithm_14-1 CRS(CSR)形式の行列ベクトル積y=Axの計算](Text/C.14/Algorithm_14-1.py)
+	* [Algorithm_14-2 CRS(CSR)形式の行列ベクトル積y=A^txの計算](Text/C.14/Algorithm_14-2.py)
+	<br>
 
 ### [１５．スーパーコンピュータによる数値計算](Text/C.15)
