@@ -22,7 +22,7 @@
 ### [３．コンピュータにおける数値の表現と処理](Text/C.03)
 * <font color="maroon">Algorithm</font>
 	* [Algorithm_3-1 10進数から2進数への変換](Text/C.03/Algorithm_3-1.py)
- 	* [Algorithm_3-2 10進数小数aの2進n桁展開](Text/C.03/Algorithm_3-2.py)
+	* [Algorithm_3-2 10進数小数aの2進n桁展開](Text/C.03/Algorithm_3-2.py)
 	<br>
 
 ### [４．行列とベクトルの計算](Text/C.04)
@@ -59,11 +59,71 @@
 	<br>
 
 ### [６．多項式と有理式](Text/C.06)
+* <font color="green">練習問題</font>
+	* [Practice_6-1 チェビシェフ多項式の可視化](Text/C.06/Practice_6-1.py)
+	* [Practice_6-2 ルジャンドル多項式](Text/C.06/Practice_6-2.py)
+	* [Practice_6-3 ラゲール多項式](Text/C.06/Practice_6-3.py)
+	* [Practice_6-4 物理系エルミート多項式](Text/C.06/Practice_6-4.py)
+	<br>
+* <font color="maroon">Algorithm</font>
+	* [Algorithm_6-1 多項式の和](Text/C.06/Algorithm_6-1~3.py)
+	* [Algorithm_6-2 多項式の積](Text/C.06/Algorithm_6-1~3.py)
+	* [Algorithm_6-3 多項式の割り算](Text/C.06/Algorithm_6-1~3.py)
+	* [Algorithm_6-4 ホーナー法による多項式の値の計算](Text/C.06/Algorithm_6-4.py)
+	* [Algorithm_6-5 多項式の高階導関数値の計算](Text/C.06/Algorithm_6-5.py)
+	* [Algorithm_6-6 拡張ユークリッド算法](Text/C.06/Algorithm_6-6.py)
+	* [Algorithm_6-7 連分数展開に対応する有理式の計算](Text/C.06/Algorithm_6-7.py)
+	<br>
+* <font color="olive">演習問題</font>
+	* [Exercises_6-1 多項式の計算](Text/C.06/Exercises_6-1.py)
+	* [Exercises_6-2 多項式の値をホーナー法で求める](Text/C.06/Exercises_6-2.py)
+	* [Exercises_6-3 チェビシェフ多項式の漸化式計算](Text/C.06/Exercises_6-3.py)
+	* [Exercises_6-4 拡張ユークリッド算法](Text/C.06/Exercises_6-4.py)
+	* [Exercises_6-5 連分数展開に対応する有理式の計算](Text/C.06/Exercises_6-5.py)
+	<br>
 
 ### [７．関数の近似](Text/C.07)
+* <font color="green">練習問題</font>
+	* [Practice_7-1 ファン・デル・モンド行列](Text/C.07/Practice_7-1.py)
+	* [Practice_7-2 ラグランジュ補間](Text/C.07/Practice_7-2.py)
+	* [Practice_7-3 ニュートン補間](Text/C.07/Practice_7-3.py)
+	* [Practice_7-4 スプライン補間](Text/C.07/Practice_7-4.py)
+	* [Practice_7-5 ルンゲの現象の可視化](Text/C.07/Practice_7-5.py)
+	* [Practice_7-6 パデ近似](Text/C.07/Practice_7-6.py)
+	* [Practice_7-7 パデ近似の可視化](Text/C.07/Practice_7-7.py)
+	* [Practice_7-8 exp(x)のパデ近似をハンケル行列で求める](Text/C.07/Practice_7-8.py)
+	* [Practice_7-9 f(x)=sqrt((1+x/2)/(1+2x))のパデ近似をハンケル行列で求める](Text/C.07/Practice_7-9.py)
+	<br>
+* <font color="maroon">Algorithm</font>
+	* [Algorithm_7-1 sin(x)のマクローリン展開による近似](Text/C.07/Algorithm_7-1.py)
+	<br>
+* <font color="olive">演習問題</font>
+	* [Exercises_7-1 マクローリン近似](Text/C.07/Exercises_7-1.py)
+	* [Exercises_7-2 ラグランジュ補間](Text/C.07/Exercises_7-2.py)
+	* [Exercises_7-3 ニュートン補間](Text/C.07/Exercises_7-3.py)
+	* [Exercises_7-4 パデ近似](Text/C.07/Exercises_7-4.py)
+	<br>
 
 ### [８．非線形方程式の解法](Text/C.08)
-	
+* <font color="navy">文中の式</font>
+	* [Equation-8-28 f(x) = (x-1)(x-2)...(x-20)](Text/C.08/Equation_8-28.py)
+	<br>
+* <font color="green">練習問題</font>
+	* [Practice_8-1 不動点近傍の反復の様子](Text/C.08/Practice_8-1.py)
+	* [Practice_8-2 反復法の計算結果](Text/C.08/Practice_8-2.py)
+	* [Practice_8-3 ニュートン法の可視化](Text/C.08/Practice_8-3.py)
+	* [Practice_8-4 割線法の可視化](Text/C.08/Practice_8-4.py)
+	<br>
+* <font color="maroon">Algorithm</font>
+	* [Algorithm_8-1 ニュートン法](Text/C.08/Algorithm_8-1.py)
+	* [Algorithm_8-2 割線法](Text/C.08/Algorithm_8-2.py)
+	<br>
+* <font color="olive">演習問題</font>
+	* [Exercises_8-1 ニュートン法の反復式](Text/C.08/Exercises_8-1.py)
+	* [Exercises_8-2 f(x)=x^2 - a のニュートン法による反復式](Text/C.08/Exercises_8-2.py)
+	* [Exercises_8-3 多変数代数方程式の解をニュートン法で求める](Text/C.08/Exercises_8-3.py)
+	<br>
+
 ### [９．行列の固有値問題](Text/C.09)
 * <font color="navy">文中の式</font>
 	* [Equation-9-18 固有ベクトル行列と固有値行列](Text/C.09/Equation_9-18.py)
