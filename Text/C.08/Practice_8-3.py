@@ -1,4 +1,4 @@
-# Practice 8.3 ニュートン法の視覚化
+# Practice 8.3 ニュートン法の可視化
 
 import numpy as np
 import matplotlib.pyplot as plt
