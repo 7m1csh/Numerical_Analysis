@@ -1,8 +1,14 @@
+# Practice 1.1 運動している人の変化
+"""
+ある街では毎年、運動していない人の２割は運動を始めるが、
+逆に運動している人の４割がやめてしまう。
+この現象が何年か続いたとき、運動している人の割合を調べる。
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 
 # 日本語フォントの設定
-#plt.rcParams['font.family'] = 'DejaVu Sans'
 plt.rcParams['font.family'] = 'Noto Sans CJK JP'
 
 def simulate_exercise_model(x0, y0, years):
