@@ -1,6 +1,9 @@
 # 数値の処理と数値解析
 ## テキスト
 ### [1. コンピュータと数値計算](Text/C.01)
+* <font color="green">練習問題</font>
+	* [Practice_1-1 運動している人の変化](Text/C.01/Practice_1-1.py)
+	<br>
 * <font color="olive">演習問題</font>
 	* [Exercises_1-1 Algorithm 2.2 と共用(ユークリッドの互除法)](Text/C.01/Exercises_1-1.py)
 	* [Exercises_1-2-1 計算量がnの階乗に比例する方法でn=5で1秒かかった場合n=10では何秒か](Text/C.01/Exercises_1-2-1.py)
@@ -35,6 +38,8 @@
 * <font color="olive">演習問題</font>
 	* [Exercises_4-1 行列累乗とベクトル積の計算](Text/C.04/Exercises_4-1.py)
 	* [Exercises_4-6 グラム・シュミットの直交化法を用いて正規直交ベクトルを求める](Text/C.04/Exercises_4-6.py)
+	* [Exercises_4-6-1 演習問題4.6.1 を図示化。 直交化前と直交化後を別々に表示。](Text/C.04/Exercises_4-6-1.py)
+	* [Exercises_4-6-2 演習問題4.6.1 を図示化。 直交化前と直交化後を同一座標に表示。](Text/C.04/Exercises_4-6-2.py)
 	<br>
 	
 ### [５．連立一次方程式の解法](Text/C.05)
@@ -144,6 +149,7 @@
 	<br>
 * <font color="maroon">Algorithm</font>
 	* [Algorithm_9-1 べき乗法](Text/C.09/Algorithm_9-1.py)
+	* [Algorithm_9-1-1 'Algorithm 9.1 べき乗法' に途中経過を表示する機能を追加したもの。](Text/C.09/Algorithm_9-1-1.py)
 	* [Algorithm_9-2 レイリー・リッツ手法](Text/C.09/Algorithm_9-2.py)
 	<br>
 * <font color="olive">演習問題</font>
@@ -185,6 +191,18 @@
 	<br>	
 
 ### [１１．数値積分法](Text/C.11)
+* <font color="green">練習問題</font>
+	* [Practice_11-1 台形による定積分の近似](Text/C.11/Practice_11-1.py)
+	* [Practice_11-2 ガウス則](Text/C.11/Practice_11-2.py)
+	<br>
+* <font color="maroon">Algorithm</font>
+	* [Algorithm_11-1 複合台形則](Text/C.11/Algorithm_11-1.py)
+	<br>
+* <font color="olive">演習問題</font>
+	* [Exercises_11-2 ラグランジュ補間に基づく数値積分則（ニュートン・コーツ型積分則）の重み（係数）を求める](Text/C.11/Exercises_11-2.py)
+	* [Exercises_11-3 台形則とシンプソン則の比較](Text/C.11/Exercises_11-3.py)
+	* [Exercises_11-4 2点ガウス型積分則](Text/C.11/Exercises_11-4.py)
+	<br>
 
 ### [１２．常微分方程式の解法](Text/C.12)
 
