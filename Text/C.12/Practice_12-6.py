@@ -1,4 +1,7 @@
 # Practice 12.6 ルンゲ・クッタ法（ロジスティック方程式）
+"""
+ロジスティック方程式の数値解（RK4）
+"""
 
 import numpy as np
 import matplotlib.pyplot as plt

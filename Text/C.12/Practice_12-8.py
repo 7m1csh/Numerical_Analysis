@@ -1,4 +1,9 @@
 # Practice 12.8 陽解法と陰解法
+"""
+陽解法 vs 陰解法 の比較
+y = -2y + 2 - e^{-4t}
+y(0) = 1
+"""
 
 import numpy as np
 import matplotlib.pyplot as plt

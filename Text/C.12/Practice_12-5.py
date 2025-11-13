@@ -1,4 +1,7 @@
 # Practice 12.5 オイラー法（ロジスティック方程式）
+"""
+ロジスティック方程式のオイラー法による近似
+"""
 
 import numpy as np
 import matplotlib.pyplot as plt

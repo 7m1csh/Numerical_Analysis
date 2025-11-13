@@ -1,3 +1,8 @@
+# Practice 12.1 フレーネルゾーンを可視化
+"""
+送信点と受信点を固定し、第1フレネルゾーンを可視化。
+通信経路に対して「どれだけクリアランスが必要か」を示す。
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 

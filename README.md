@@ -205,6 +205,19 @@
 	<br>
 
 ### [１２．常微分方程式の解法](Text/C.12)
+* <font color="green">練習問題</font>
+	* [Practice_12-1 フレーネルゾーンを可視化](Text/C.12/Practice_12-1.py)
+	* [Practice_12-2 アナログNHK総合TVにおける菅平によるナイフエッジ効果の解析](Text/C.12/Practice_12-2.py)
+	* [Practice_12-3 ロジスティック方程式](Text/C.12/Practice_12-3.py)
+	* [Practice_12-4 ロトカ・ヴォルテラ方程式](Text/C.12/Practice_12-4.py)
+	* [Practice_12-5 ロジスティック方程式のオイラー法による近似](Text/C.12/Practice_12-5.py)
+	* [Practice_12-6 ロジスティック方程式の数値解（RK4）](Text/C.12/Practice_12-6.py)
+	* [Practice_12-7 ルンゲ＝クッタ法の可視化](Text/C.12/Practice_12-7.py)
+	* [Practice_12-8 陽解法と陰解法](Text/C.12/Practice_12-8.py)
+	<br>
+* <font color="olive">演習問題</font>
+	* [Exercises_12-1 オイラー法による u'=t+u u(0)=1,h=0.1 u(0.1), u(0.2) の近似値を求める](Text/C.12/Exercises_12-1.py)
+	* [Exercises_12-2 ホイン法による u'=t+u u(0)=1,h=0.1 u(0.1), u(0.2) の近似値を求める](Text/C.12/Exercises_12-2.py)
 
 ### [１３．偏微分方程式と差分法](Text/C.13)
 

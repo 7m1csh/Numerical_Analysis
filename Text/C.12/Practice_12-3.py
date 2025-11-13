@@ -1,4 +1,9 @@
 # Practice 12.3 ロジスティック方程式
+"""
+初期は指数関数的に増加。
+やがて成長は鈍化し、xはKに収束。
+資源が有限である現実世界の増殖モデル。
+"""
 
 import numpy as np
 import matplotlib.pyplot as plt

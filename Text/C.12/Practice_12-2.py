@@ -1,3 +1,9 @@
+# Practice 12.1 アナログNHK総合TVにおける菅平によるナイフエッジ効果の解析
+"""
+東京タワー（地上高333m）からのVHF帯（NHK総合：90–96MHz）のTV電波が、
+長野県・菅平高原（標高約1250m）に回折して届いたという事例を
+フレネルゾーン回折や**山越え回折（Knife-Edge Diffraction）**で解析。
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 

@@ -1,4 +1,7 @@
 # Practice 12.4 ロトカ・ヴォルテラ方程式
+"""
+捕食者（Predator）と被食者（Prey）の関係を表す古典的な非線形常微分方程式モデル
+"""
 
 import numpy as np
 import matplotlib.pyplot as plt

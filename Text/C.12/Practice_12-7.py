@@ -1,4 +1,8 @@
 # Practice 12.7 ルンゲ＝クッタ法の可視化
+"""
+ルンゲ＝クッタ法（RK4）の可視化
+y = y - t^2 + 1 を y(0) = 0.5 で解く
+"""
 
 import numpy as np
 import matplotlib.pyplot as plt
