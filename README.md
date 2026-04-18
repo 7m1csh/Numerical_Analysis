@@ -220,6 +220,23 @@
 	* [Exercises_12-2 ホイン法による u'=t+u u(0)=1,h=0.1 u(0.1), u(0.2) の近似値を求める](Text/C.12/Exercises_12-2.py)
 
 ### [１３．偏微分方程式と差分法](Text/C.13)
+* <font color="green">練習問題</font>
+	* [Practice_13-1 1次元熱伝導方程式の有限差分法（陽解法）](Text/C.13/Practice_13-1.py)
+	* [Practice_13-2 2次元の陽的差分法](Text/C.13/Practice_13-2.py)
+	* [Practice_13-3 2次元定常熱伝導方程式（ラプラス方程式）](Text/C.13/Practice_13-3.py)
+	* [Practice_13-4 ラプラス方程式の離散化による連立一次方程式の構成](Text/C.13/Practice_13-4.py)
+	* [Practice_13-5 1次元非定常熱伝導方程式の数値解（陽解法）](Text/C.13/Practice_13-5.py)
+	* [Practice_13-6 1次元非定常熱伝導方程式の数値解（クランク・ニコルソン法）](Text/C.13/Practice_13-6.py)
+	<br>
+* <font color="maroon">Algorithm</font>
+	* [Algorithm_13-1 2次元ラプラス方程式の反復解法（ヤコビ法）](Text/C.13/Algorithm_13-1.py)
+	* [Algorithm_13-2 2次元ラプラス方程式の反復解法（逐次加算緩和法）](Text/C.13/Algorithm_13-2.py)
+	<br>
+* <font color="olive">演習問題</font>
+	* [Exercises_13-1 偏微分と高階偏微分](Text/C.13/Exercises_13-1.py)
+	* [Exercises_13-2 1次元ラプラス方程式](Text/C.13/Exercises_13-2.md)
+	* [Exercises_13-4 三重対角行列の固有値と固有ベクトル](Text/C.13/Exercises_13-4.py)
+	<br>
 
 ### [１４．疎行列の計算法](Text/C.14)
 * <font color="green">練習問題</font>
@@ -228,6 +245,18 @@
 * <font color="maroon">Algorithm</font>
 	* [Algorithm_14-1 CRS(CSR)形式の行列ベクトル積y=Axの計算](Text/C.14/Algorithm_14-1.py)
 	* [Algorithm_14-2 CRS(CSR)形式の行列ベクトル積y=A^txの計算](Text/C.14/Algorithm_14-2.py)
+	* [Algorithm_14-3 共役勾配法](Text/C.14/Algorithm_14-3.py)
+	* [Algorithm_14-4 前処理付き共役勾配法](Text/C.14/Algorithm_14-4.py)
+	<br>
+* <font color="olive">演習問題</font>
+	* [Exercises_14.1 CRS(CSR)形式での表現](Text/C.14/Exercises_14.1.py)
+	* [Exercises_14.2 CRS(CSR)形式から密行列への復元と計算](Text/C.14/Exercises_14.2.py)
 	<br>
 
 ### [１５．スーパーコンピュータによる数値計算](Text/C.15)
+* <font color="green">練習問題</font>
+	* [Practice_15-1 アムダールの法則（並列化率とプロセッサ数による加速比）](Text/C.15/Practice_15-1.py)
+	* [Practice_15-2 アムダールの法則とグスタフソンの法則](Text/C.15/Practice_15-2.py)
+	* [Practice_15-3 グスタフソンの法則（並列化率とプロセッサ数による加速比）](Text/C.15/Practice_15-3.py)
+	* [Practice_15-4 スーパーコンピュータの性能推移（FLOPS）](Text/C.15/Practice_15-4.py)
+	<br>
